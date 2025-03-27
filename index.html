@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>My Weather App</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+<div class="search">
+    <h1>Weather App</h1>
+    <div class="srh">
+        <input type="text" id="search" name="search" placeholder="Enter Your City" spellcheck="false", required>
+        <button type="submit">Search</button>
+    </div>
+    <div class="detail">
+        <div class="tc">
+            <h2 class="city"></h2>
+            <h1 class="temp"></h1>
+        </div>
+        <div class="dateday">
+            <h2 class="date"></h2>
+        </div>
+    </div>
+    
+    <table class="table">
+        <th>Weather Index</th>
+        <th class="Result">Result</th>
+        <tr>
+            <td>Wind Speed</td>
+            <td class="speed"></td>
+        </tr>
+        <tr>
+            <td>Humidity</td>
+            <td class="humidity"></td>
+        </tr>
+        <tr>
+            <td>Pressure</td>
+            <td class="pressure"></td>
+        </tr>
+        <tr>
+            <td>Main Weather Condition</td>
+            <td class="main"></td>
+        </tr>
+        <tr>
+            <td>Weather Condition</td>
+            <td class="condition"></td>
+        </tr>
+        <tr>
+            <td>Direction in degree</td>
+            <td class="direction"></td>
+        </tr>
+        
+    </table>
+</div>
+<script src="index.js" type="text/JavaScript"></script>
+</body>
+</html>
+

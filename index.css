@@ -1,0 +1,90 @@
+*{
+    background-color: rgb(250, 250, 250);
+    font-family: 'Times New Roman', Times, serif;
+}
+.search{
+    align-items: center;
+    justify-items: center;
+    background-color: skyblue;
+    width: 500px;
+    height: 580px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 420px;
+}
+h1{
+    background-color: skyblue;
+}
+
+.srh{
+    background-color: skyblue;
+}
+#search{
+    background-color: white;
+}
+h3{
+    background-color: skyblue;
+    margin-left: 30px;
+    margin-top: 33px;
+}
+input{
+    background-color: skyblue;
+    padding:10px;
+    text-align: left;
+    font-size: 16px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+button{
+    width: 60px;
+    height: 37px;
+    background: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #2196F3;
+    cursor: pointer;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.btn.hover{
+    background-color: linear-gradiant(135 #061e31);
+}
+.tc{
+    background-color: skyblue;
+}
+.city{
+    background-color: skyblue;
+}
+.table{
+    margin-top: 7px;
+    background-color: skyblue;
+}
+.detail{
+    display: flex;
+    background-color: skyblue;
+}
+.dateday{
+    background-color: skyblue;
+    padding: 10px;
+    margin-left: 50px;
+}
+.date{
+    background-color: skyblue;
+}
+.day{
+    background-color: skyblue;
+}
+table, th, td {
+    background-color: skyblue;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    width: 290px;
+    text-align: left; 
+}
+td{
+    margin: auto;
+}
